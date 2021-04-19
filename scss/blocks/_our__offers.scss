@@ -1,0 +1,91 @@
+.our__offers {
+    
+}
+.our__offers__item {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    &:nth-child(1) {
+        &::after {
+            content: "";
+            position: absolute;
+            width: 735px;
+            height: 146px;
+            background-image: url("/img/line2.png");
+            background-repeat: no-repeat;
+            background-position: center right;
+            background-size: cover;
+            right: -165px;
+            bottom: 10px;
+        }
+        & img {
+            box-shadow: 500px 1px 1px 1px #E5ECF4;
+        }
+    }
+    &:nth-child(2) {
+        &::after {
+            content: "";
+            position: absolute;
+            width: 735px;
+            height: 146px;
+            background-image: url("/img/line2.png");
+            background-repeat: no-repeat;
+            background-position: center left;
+            background-size: cover;
+            left: -565px;
+            transform: rotateY(180deg);
+            top: 10px;
+        }
+        &img {
+            box-shadow: -500px 1px 1px 1px #E5ECF4;
+        }
+    }
+    &:nth-child(3) {
+        &::after {
+            content: "";
+            position: absolute;
+            width: 735px;
+            height: 146px;
+            background-image: url("/img/line2.png");
+            background-repeat: no-repeat;
+            background-position: center left;
+            background-size: cover;
+            right: -515px;
+            top: 30px;
+        }
+        &img {
+            box-shadow: 500px 1px 1px 1px #E5ECF4;
+        }
+    }
+}
+.our__offers__img {
+    border-radius: 50%;
+    height: 445px;
+    width: auto;
+}
+.our__offers__texts {
+    width: 445px;
+}
+.our__offers__heading {
+    font-family: $font-space-mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: $third-color;
+    margin-top: 0;
+}
+.our__offers__text {
+    font-family: $font-lexend-deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: $second-color;
+}
+.our__offers__btn {
+    
+}

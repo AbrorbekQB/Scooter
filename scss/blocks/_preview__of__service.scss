@@ -1,0 +1,67 @@
+.preview__of__service__section {
+    padding: 160px 0 147px;
+}
+.preview__of__service__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.preview__of__service__item {
+    margin-right: 30px;
+    
+    & span {
+        display: block;
+        height: 96px;
+        width: 96px;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+    & h2 {
+        font-family: $font-space-mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: $third-color;
+    }
+    & p {
+        font-family: $font-lexend-deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        color: $second-color;
+    }
+}
+.preview__of__service__item {
+    &:first-child span{
+        background: url(/img/locate.svg), $first-color;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    &:nth-child(2) span{
+        background: url(/img/pick.svg), $first-color;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    &:last-child span{
+        background: url(/img/enjoytheRide.svg), $first-color;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+    }
+}
+.line {
+    width: 1000px;
+    height: 15px;
+    background: #E5ECF4;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.site__logo__link.footer {
+    background: url("/img/scootWhite.png");
+}

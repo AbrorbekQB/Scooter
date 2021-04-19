@@ -1,0 +1,39 @@
+.site__footer {
+    background-color: rgba(51, 58, 68, 1);
+}
+.social__networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    & a{
+        display: block;
+        width: 24px;
+        height: 24px;
+        margin-left: 24px;
+    }
+}
+.facebook__link {
+    & svg {
+        fill: #FCB72B;
+    }
+    &:hover svg {
+        fill: #E5ECF4;
+    }
+}
+.twiter__link {
+    & svg {
+        fill: #FCB72B;
+    }
+    &:hover svg {
+        fill: #E5ECF4;
+    }
+}
+.instagram__link {
+    & svg {
+        fill: #FCB72B;
+    }
+    &:hover svg {
+        fill: #E5ECF4;
+    }
+}

@@ -1,0 +1,56 @@
+.site__header {
+    
+}
+.site__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0 21px;    
+}
+.site__logo__link {
+    height: 29px;
+    width: 108px;
+    background: url("/img/scoot.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.navbar__menu__list {
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+}
+.navbar__menu__item {
+    margin-right: 32px;
+    
+    
+}
+.navbar__menu__link {
+    font-family: $font-space-mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: $second-color;
+    &:hover, &:focus {
+        color: $first-color;
+    }
+}
+.btn {
+    padding: 14px 39px;
+    background-color: $first-color;
+    border: 3px solid $first-color;
+    outline: none;
+    color: white;
+    font-family: $font-space-mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    &:hover, &:focus {
+        background-color: transparent;
+        color: $first-color;
+    }
+}
+.navbar__btn {
+    margin-left: auto;
+}

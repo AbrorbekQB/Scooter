@@ -1,0 +1,54 @@
+.introductory__section {
+    background-image: url("/img/Bitmap.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    padding: 153px 0 152px;
+    color: #FFFFFF;
+}
+.introductory__heading {
+    font-family: $font-space-mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+.introductory__text {
+    position: relative;
+    width: 405px;
+    font-family: $font-lexend-deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    margin-left: 95px;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 300px;
+        height: 15px;
+        background-color: $first-color;
+        left: -29px;
+        top: 43%;
+        transform: translateX(-100%);
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 444px;
+        height: 138px;
+        background-image: url("/img/strelka.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: -20px;
+        top: 43%;
+        transform: translateX(100%);
+    }
+}
+.introductory__btn {
+    
+}

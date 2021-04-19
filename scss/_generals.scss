@@ -1,0 +1,44 @@
+html {
+box-sizing: border-box;
+}
+*, *::after, *::before {
+box-sizing: inherit;
+}
+body {
+margin: 0;
+}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+border: 0;
+margin: -1px;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+clip: rect(0,0,0,0);
+overflow: hidden;
+}
+.site__header, section {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}

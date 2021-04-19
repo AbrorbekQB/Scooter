@@ -1,0 +1,99 @@
+.download__app {
+    background-color: $third-color;
+    padding: 102px 0;
+    position: relative;
+    & .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        width: 347px;
+        height: 347px;
+        border-radius: 50%;
+        background-color: rgba(229, 236, 244, 0.1);
+        bottom: 0;
+        right: 0;
+        transform: translate(50%, 50%);
+        box-shadow: -403px 0px 1px 1px rgba(229, 236, 244, 0.1), -806px 0px 1px 1px rgba(229, 236, 244, 0.1);
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 317px;
+        height: 317px;
+        border-radius: 50%;
+        background-color: transparent;
+        bottom: 0;
+        right: 0;
+        transform: translate(50%, 50%);
+        box-shadow: -403px 0px 1px 1px $third-color, -806px 0px 1px 1px $third-color;
+    }
+}
+.download__app__heading {
+    font-family: $font-space-mono;
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    width: 415px;
+    z-index: 10;
+}
+.links__wrapper {
+    display: flex;
+    align-items: center;
+}
+.appstore__link {
+    margin-right: 18px;
+}
+.link {
+    z-index: 10;
+    background-color: #E5ECF4;
+    padding: 8px 15px 9px 16px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appstore__logo {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("/img/apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-right: 12px;
+}
+.link__text__wrapper {
+    font-family: $font-space-mono;
+    font-style: normal;
+    font-weight: bold;
+    color: #495567;
+    & small {
+        margin: 0;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: -0.446429px;
+    }
+    & p {
+        margin: 0;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.892857px;
+    }
+}
+.googleplay__logo {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("/img/playmarket.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-right: 12px;
+}
